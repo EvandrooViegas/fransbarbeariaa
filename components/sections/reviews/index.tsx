@@ -1,10 +1,10 @@
 import SectionContainer from '@/components/section-container'
 import SectionTitle from '@/components/section-title'
 import React from 'react'
-import reviews from "./data.ts"
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { IoPersonCircleOutline } from "react-icons/io5";
 import { FaStar } from 'react-icons/fa'
+import reviews from './data';
 export default function Reviews() {
   return (
     <SectionContainer id='reviews' className='bg-foreground text-black space-y-6'>
