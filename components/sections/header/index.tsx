@@ -5,7 +5,7 @@ import React from "react";
 import {IoIosArrowDown} from "react-icons/io" 
 export default function Header() {
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-screen w-full relative md:pt-0 pt-20">
       <video autoPlay={true} loop={true} className="absolute inset-0 w-full h-full object-cover  z-[-1]">
         <source src="/bg.mp4" type="video/mp4" />
         <div className=" to-black" />
